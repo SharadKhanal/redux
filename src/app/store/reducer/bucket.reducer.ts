@@ -1,4 +1,4 @@
-import {Bucket} from "../../models/bucket.model";
+import {Bucket} from "../../../models/bucket.model";
 import {createReducer, on} from "@ngrx/store";
 import {addToBucket, removeFromBucket} from "../actions/bucket.action";
 
